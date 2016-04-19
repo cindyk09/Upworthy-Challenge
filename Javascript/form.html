@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript form validation - checking email</title>
+  </head>
+  <body onload='document.emailform.emailfield.focus()'>
+    <div class="mail">
+      <h2>Input an email and Submit</h2>
+      <form name="emailform" id="email-form" action="#" method="post">
+
+      <input type='email' id="email-field" name='emailfield' placeholder="Email Address">
+      <input type="submit" name="submit" id="email-submit" value="Submit" onclick="ValidateEmail(document.emailform.emailfield)"/>
+
+      </form>
+    </div>
+    <script src="form.js"></script>
+  </body>
+</html>
